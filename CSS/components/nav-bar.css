@@ -11,5 +11,22 @@
 .nav__list {
   display: flex;
   justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
   color: #2e363e;
+}
+.nav__notification {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
 }
