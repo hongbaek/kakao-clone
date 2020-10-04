@@ -15,3 +15,7 @@ body {
 
   height: 1000vh;
 }
+
+.main-screen {
+  margin: 0px var(--horizontal-space);
+}
